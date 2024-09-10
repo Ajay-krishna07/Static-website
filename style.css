@@ -1,0 +1,302 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.main
+{
+	width: 100%;
+	background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/1.jpg);
+	background-position: center;
+	background-size: cover;
+	height:100vh;
+}
+.main2
+{
+	width: 100%;
+	background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/3.jpg);
+	background-position: center;
+	background-size: cover;
+	min-height:100vh;
+
+}
+
+.navbar
+{
+	width: 100%;
+	height: 90px;
+	margin: auto;
+	background: #181818;
+	/*background-color: #0F0F0F;*/
+	position: relative;
+}
+.icon
+{
+	width: 10px;
+	float: left;
+	height: 70px;
+	size: 34px;
+}
+
+.logo
+{
+	color: white;
+	font-size: 35px;
+	font-family: Helvetica Neue;
+	float: left;
+	padding-top: 19px;
+	padding-left: 80px;
+}
+
+.menu
+{
+	width: 600px;
+	float: left;
+	height: 70px;
+	padding-left: 460px;
+	padding-top: 5px;
+
+
+}
+ul
+{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 80px;
+}
+
+ul li
+{
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	transition: 0,4s ease-in-out;
+}
+ul li a:hover
+{
+	color: yellow;
+}
+
+.btn
+{
+	width: 120px;
+	height: 40px;
+	background:#ffff00;
+	border:2px solid yellow;
+	margin-top: 19px;
+	float: right;
+	color: black;
+	font-size: 15px;
+	border-radius: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .4s ease;
+	position: relative;
+	left: -18px;
+
+}
+
+.btn a
+{
+	text-decoration:none;
+	color: #000;
+	transition: .3s ease; 
+}
+
+.btn:hover
+{
+	background:#ffff;
+	border: none;
+}
+/*p
+{
+	font-family: Times New Roman;
+	font-size: 30px;
+	color: yellow;
+	padding-left: 80px;
+	padding-top: 60px;
+}*/
+.content
+{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+	
+}
+.content h1
+{
+	font-size: 40px;
+	font-family: 'Times New Roman';
+	padding-top: 50px;
+	letter-spacing: 15px;
+	
+}
+.content span
+{
+	font-size: 65px;
+	font-family: 'Times New Roman';
+	color: yellow;
+	letter-spacing: 5px;
+}
+.content2
+{
+	width: 625px;
+	float: right;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+	padding-top: 50px;
+	padding-right: 30px;
+}
+.content2 h1
+{
+	font-size: 40px;
+	font-family: 'Times New Roman';
+	padding-top: 25px;
+	letter-spacing: 4px;
+}
+.content2 span
+{
+	font-size: 65px;
+	font-family: 'Times New Roman';
+	color: yellow;
+	display: block;
+	text-align: right;
+	padding-right: 25px;
+}
+
+.form
+{
+	width: 250px;
+	height: 300px;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+	position: absolute;
+	top: 120px;
+	left: 900px;
+	border-radius: 10px;
+	padding: 25px;
+}
+.form h2
+{
+	width: 220px;
+	font-family: Times New Roman;
+	text-align: center;
+	color: black;
+	font-size: 22px;
+	background-color: yellow;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 8px;
+}
+.form select
+{
+	width: 240px;
+	height: 35px;
+	background: transparent;
+	border-bottom: 1px solid yellow;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.form select option
+{
+	color: white;
+	background-color: black;
+}
+
+.btn2
+{
+	width: 250px;
+	height: 40px;
+	background:white;
+	border:2px solid white;
+	margin-top: 14px;
+	float: right;
+	color: black;
+	font-size: 15px;
+	border-radius: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .4s ease;
+}
+.btn2:hover
+{
+	background: green;
+	border: none;
+
+}
+.btn2 a
+{
+	text-decoration: none;
+	color: black;
+	transition: .4s ease;
+}
+
+.footer
+{
+	height: 400px;
+	background-color: black;
+	background-repeat: no-repeat;
+	color: white;
+	padding-left: 70px;
+	font-family: Times New Roman;
+	font-size: 18px;
+	letter-spacing: 2px;
+
+}
+
+.t1 
+{
+	color: white;
+	width: 100%;
+	height: 240px;
+	text-align: left;
+	padding-top: 30px;
+}
+.t1 tr td a
+{
+	text-decoration: none;
+	color: white;
+}
+.t1 tr td a:hover
+{
+	color: yellow;
+}
+
+.footer p
+{
+	padding-top: 70px;
+	padding-left: 400px;
+}
+.footer p a
+{
+	text-decoration: none;
+	color: yellow;
+	transition: 1s ease-in-out;
+}
+
+p a:hover
+{
+	color:white;
+
+
+}
